@@ -1,7 +1,31 @@
-html{box-sizing:border-box;font-size:62.5%}*,::after,::before{box-sizing:inherit}body{background:var(--color-bg);color:var(--color-text);margin:0;padding:0;font-size:1.6rem}ol,ul{list-style:none}a{text-decoration:none;color:inherit}
+html{box-sizing:border-box;font-size:62.5%}*,::after,::before{box-sizing:inherit}body{background:#ffff;color:#333;margin:0;padding:0;font-size:1.6rem}ol,ul{list-style:none}a{text-decoration:none;color:inherit}
 body {
     font-family: sans-serif;
 }
+
+
+#main_nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 50px;
+}
+#main_nav ul li a {
+    position: relative;
+}
+#main_nav ul li a::before {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #000;
+    bottom: -3px;
+    left: 0;
+    transition: width .4s ease-in-out;
+}
+#main_nav ul li a:hover::before {
+    width: 100%;
 
 
 
