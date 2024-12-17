@@ -4,6 +4,8 @@ body {
 }
 
 
+
+
 #s_homepage {
     height: 100vh;
     width: 100%;
@@ -20,4 +22,10 @@ body {
     padding: 15px 25px;
     border-radius: 50px;
     color: #ffffff;
+}
+
+#footer_main {
+    background: #333333;
+    color: #ffff;
+    text-align: center;
 }
