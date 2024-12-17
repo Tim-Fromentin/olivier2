@@ -12,3 +12,12 @@ body {
     align-items: center;
     justify-content: center;
 }
+#s_homepage h1 {
+    font-size: 15rem;
+}
+#s_homepage a {
+    background: #ff5454;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: #ffffff;
+}
