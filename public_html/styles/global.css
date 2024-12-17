@@ -4,6 +4,8 @@ body {
 }
 
 form {
+    background-color:grey;
+    color: #333333;
     display: flex;
     flex-direction: column;
     align-items: center;
