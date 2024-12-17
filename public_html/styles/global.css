@@ -2,3 +2,11 @@ html{box-sizing:border-box;font-size:62.5%}*,::after,::before{box-sizing:inherit
 body {
     font-family: sans-serif;
 }
+
+#main_nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 50px;
+}
