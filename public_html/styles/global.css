@@ -2,3 +2,9 @@ html{box-sizing:border-box;font-size:62.5%}*,::after,::before{box-sizing:inherit
 body {
     font-family: sans-serif;
 }
+
+#footer_main {
+    background: #333333;
+    color: #ffff;
+    text-align: center;
+}
