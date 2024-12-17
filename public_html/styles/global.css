@@ -3,6 +3,27 @@ body {
     font-family: sans-serif;
 }
 
+
+
+
+#s_homepage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#s_homepage h1 {
+    font-size: 15rem;
+}
+#s_homepage a {
+    background: #ff5454;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
 #footer_main {
     background: #333333;
     color: #ffff;
